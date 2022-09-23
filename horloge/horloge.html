@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horloge</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form action="../index.html">
+        <button type="submit" class="button">Accueil</button>
+    </form>
+    <div id="clock" onload="currentTime()">
+        <script>function currentTime() {
+
+                // attribution des variables
+                let date = new Date();
+
+                let hours = date.getHours();
+                let minutes = date.getMinutes();
+                let seconds = date.getSeconds();
+
+                //rajoute un zero si le chiffre est inférieur à 10
+                if (hours < 10) {
+                    hours = "0" + hours;
+                }
+
+                if (minutes < 10) {
+                    minutes = "0" + minutes;
+                }
+
+                if (seconds < 10) {
+                    seconds = "0" + seconds;
+                }
+
+                // Affichage
+                let time = hours + ":" + minutes + ":" + seconds;
+
+                document.getElementById("clock").innerText = time;
+
+                let t = setTimeout(function () {
+                    currentTime()
+                }
+
+                    , 1000);
+
+            }
+
+            currentTime();
+        </script>
+    </div>
+
+    <div id="clock2" onload="currentTime2()">
+        <script>
+            function currentTime2() {
+                let date = new Date();
+                let year = date.getFullYear();
+                let month = date.getMonth() + 1;
+                let day = date.getDate();
+
+                if (month < 10) {
+                    month = "0" + month;
+                }
+                if (day < 10) {
+                    day = "0" + day;
+                }
+
+                let time = year + " " + month + " " + day + " ";
+                document.getElementById("clock2").innerText = time;
+                let t = setTimeout(function () {
+                    currentTime2()
+                }
+
+                    , 1000);
+            }
+            currentTime2();
+        </script>
+
+
+    </div>
+</body>
+
+</html>

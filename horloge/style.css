@@ -1,0 +1,51 @@
+ @font-face {
+     font-family: 'Bungee Spice';
+     src: url('./fonts/BungeeSpice-Regular.ttf') format('truetype');
+ }
+
+ @font-face {
+     font-family: 'medium';
+     src: url('./fonts/OpenSans-SemiBold.ttf') format('truetype');
+ }
+
+ body {
+     background: rgb(0, 0, 0);
+
+
+ }
+
+ .button {
+     font-family: 'medium', 'sans-serif';
+     margin: 5px;
+     padding: 8px;
+     background-color: gray;
+     font-size: 15px;
+     border-radius: 4px;
+ }
+
+ #clock {
+
+     position: fixed;
+     top: 30%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+     color: #ffffff;
+     font-size: 250px;
+     font-family: 'Bungee Spice', 'sans-serif';
+     letter-spacing: 15px;
+
+ }
+
+ #clock2 {
+
+     position: fixed;
+     top: 80%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+     color: #ffffff;
+     font-size: 110px;
+     font-family: 'Bungee Spice', 'sans-serif';
+     letter-spacing: 15px;
+
+
+ }
