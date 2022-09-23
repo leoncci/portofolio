@@ -1,11 +1,11 @@
  @font-face {
      font-family: 'Bungee Spice';
-     src: url('./fonts/BungeeSpice-Regular.ttf') format('truetype');
+     src: url('../fonts/BungeeSpice-Regular.ttf') format('truetype');
  }
 
  @font-face {
      font-family: 'medium';
-     src: url('./fonts/OpenSans-SemiBold.ttf') format('truetype');
+     src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
  }
 
  body {

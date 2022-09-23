@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'medium';
-    src: url('./fonts/static/OpenSans/OpenSans-medium.ttf') format('truetype');
+    src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../fonts/OpenSans.ttf') format('truetype');
 }
 
 html {
@@ -70,7 +75,7 @@ a:hover {
     height: 25em;
     width: 35em;
     text-align: center;
-    background-image: url("./img/NewYork.png");
+    background-image: url("../img/NewYork.png");
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
@@ -145,6 +150,7 @@ a:hover {
 
 .projets h1 {
     color: rgb(53, 141, 208);
+
 }
 
 .ul {
