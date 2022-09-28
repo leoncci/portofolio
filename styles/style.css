@@ -45,8 +45,8 @@ a:hover {
 /* Leon */
 .name {
     font-weight: bold;
-    color: rgb(46, 82, 136);
-    font-size: 30px;
+    color: rgb(63, 63, 63);
+    font-size: 40px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position: absolute;
