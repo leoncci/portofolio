@@ -35,11 +35,12 @@ a:hover {
     width: 25%;
     text-align: center;
 }
-.all{
+
+.all {
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color:rgb(248, 248, 248);
+    background-color: rgb(248, 248, 248);
 }
 
 /* Leon */
@@ -56,16 +57,16 @@ a:hover {
 
 /* Coter Gauche */
 .apropos {
-
+    padding: 20px;
 
     text-align: center;
     width: 25%;
 
     position: absolute;
-    
+
     transform: translate(-50%, -50%);
-    
-    top: 25em;
+
+    top: 45%;
     left: 18%;
     line-height: 2;
 
@@ -124,12 +125,13 @@ a:hover {
 
 /* Coter Droit */
 .competences {
-
+    padding-left: 30px;
+    padding-bottom: 30px;
     width: 25%;
 
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 43%;
+    top: 50%;
     right: -10%;
     line-height: 2;
 
@@ -180,7 +182,7 @@ footer {
     border-top: 1px solid black;
     height: 4rem;
 
-    background-color:rgb(232, 232, 232);
+    background-color: rgb(232, 232, 232);
 }
 
 
@@ -190,4 +192,3 @@ footer {
     margin-right: 10%;
 
 }
-
